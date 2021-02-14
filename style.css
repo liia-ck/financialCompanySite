@@ -1,8 +1,4 @@
-/* Basic style */
-
-/* from https://fonts.google.com/ */
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
-
 
 * {
   box-sizing: border-box;
@@ -48,15 +44,11 @@ img {
   background-color: #333;
   color: #fff;
   opacity: 0.8;
-  /* width and height common for a navbar: */
   width: 100%;
   height: 70px;
   position: fixed;
   top: 0;
   padding: 0 30px;
-  /* border-bottom: solid 2px #28a745; */
-
-  /* transition is for JS */
   transition:0.5s;
 }
 
@@ -80,7 +72,7 @@ img {
 }
 
 .hero {
-  background: url(/images/home/showcase.jpg) no-repeat center center/cover;
+  background: url(showcase.jpg) no-repeat center center/cover;
   height: 100vh;
   position: relative;
   color: #fff;
@@ -239,9 +231,8 @@ margin-top: 5px;
 }
 
 /* Blog Page */
-
 .hero.blog {
-  background: url('/images/home/blog.jpg') no-repeat center center/cover;
+  background: url('blog.jpg') no-repeat center center/cover;
   height: 35vh;
 }
 
@@ -258,7 +249,6 @@ margin-top: 5px;
 }
 
 /* Post Page */
-
 .post {
   padding: 50px 30px;
 }
@@ -277,13 +267,11 @@ margin-top: 5px;
 .post img {
   width: 300px;
   border-radius: 50%;
-  /* in order for img to be in the middle without using the flex: */
   display: block;
   margin: 0 auto 10px;
 }
 
 /* For JS */
-
 .navbar.top {
   background: transparent;
 }
