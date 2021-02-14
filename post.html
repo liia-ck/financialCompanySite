@@ -3,11 +3,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- favicon below from tools.dynamicdrive.com/favicon/,
-    reload the page with shift+f5 on Win -->
   <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
-  <link rel="stylesheet" href="css/utilities.css">
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="utilities.css">
+  <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
   <title>Post One</title>
 </head>
@@ -28,7 +26,7 @@
       </div>
       <div class="content">
         <h1>Blog</h1>
-        <img src="/images/arrow_down_icon.png" alt="">
+        <img src="arrow_down_icon.png" alt="">
       </div>
     </header>
 
@@ -39,7 +37,7 @@
           <i class="fas fa-user"></i> 
           &nbsp; Posted by <strong> John Doe </strong> | January 14, 2021             
        </p>
-       <img src="/images/blog/blog1.jpg" alt="">
+       <img src="blog1.jpg" alt="">
        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur ad officia necessitatibus doloribus in commodi aut cumque dolores aperiam sint dolore odit exercitationem, veritatis, ipsam dolor impedit sunt, est quo.</p>
        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos a repudiandae ducimus fugiat nisi, ipsum consectetur? Voluptatem rerum maiores aperiam exercitationem, expedita sed incidunt ad hic, reprehenderit odio fugiat, illum animi alias corrupti repellendus. Quidem dicta eum animi illo eligendi perferendis exercitationem et tempora obcaecati aperiam doloremque hic tenetur est commodi consectetur, ratione soluta saepe deserunt, accusantium quaerat ut quisquam!</p>
        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Numquam quia excepturi, suscipit totam ab nihil nobis molestias dolore quasi vel ullam culpa asperiores vitae? Quae in maxime neque aut explicabo enim natus non incidunt, voluptatibus consectetur. Nesciunt, ipsum? Tempora inventore dolore quod magnam minima quaerat, maxime totam. Recusandae, ipsa repudiandae!</p>
@@ -57,10 +55,8 @@
       <div class="footer-line"></div>
     </footer>
 
-    <!-- JS for transparency (or not) of the navbar-->
     <script>
       const navbar = document.getElementById ('navbar');
-      // meaning we haven't started scrolling yet:
       let scrolled = false;
 
       window.onscroll = function () {
