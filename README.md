@@ -1,2 +1,4 @@
 # financialCompanySity
-! [] (GIF_financialCompanySite.gif)
+
+![](GIF_financialCompanySite.gif)
+
